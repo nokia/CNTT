@@ -7,6 +7,12 @@ extra_javascript:
 - https://assets.readthedocs.org/static/core/js/readthedocs-doc-embed.js
 - https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 google_analytics: null
-site_name: CNTT-test
-markdown_extensions:
-  - attr_list
+site_name: CNTT
+theme: readthedocs
+nav:
+  - Community Guidelines: gov/README.md
+  - Reference Model: ref_model/README.md
+  - Reference Architecture: ref_arch/README.md
+  - Reference Implementation: ref_impl/README.md
+  - Reference Conformance: ref_cert/README.md
+  - Vendor Implementations: ven_impl/README.md
