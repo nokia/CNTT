@@ -3,6 +3,8 @@
 # 1. Introduction
 <p align="right"><img src="../figures/bogo_dfp.png" alt="scope" title="Scope" width="35%"/></p>
 
+![Scope](../figures/bogo_dfp.png){: style="width:35%"}
+
 ## Table of Contents
 * [1.1 Who We Are](#1.1)
 * [1.2 Document Purpose](#1.2)

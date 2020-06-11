@@ -8,3 +8,5 @@ extra_javascript:
 - https://assets.readthedocs.org/static/javascript/readthedocs-analytics.js
 google_analytics: null
 site_name: CNTT-test
+markdown_extensions:
+  - attr_list
