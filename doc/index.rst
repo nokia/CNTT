@@ -1,10 +1,16 @@
-CNTT
-----
+.. This work is licensed under a Creative Commons Attribution 4.0 International License.
+.. SPDX-License-Identifier: CC-BY-4.0
+.. (c) Anuket and its contributors
 
-Documents
-=========
+
+.. _anuket_specifications:
+
+=====================
+Anuket specifications
+=====================
+
 .. toctree::
-    :maxdepth: 16
+    :maxdepth: 2
 
     Cloud iNfrastructure Telco Taskforce (CNTT) </common/README.md>
     Community Guidelines </gov/README.md>

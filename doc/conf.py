@@ -1,6 +1,6 @@
 import os
 import sys
-import sphinx_rtd_theme
+from docs_conf.conf import *  # noqa: F401,F403
 
 from recommonmark.parser import CommonMarkParser
 source_parsers = {
@@ -8,13 +8,6 @@ source_parsers = {
 }
 source_suffix = ['.rst', '.md']
 master_doc = 'index'
-project = u'CNTT-CNTT'
-
-extensions = ['sphinxcontrib.readme-to-index', 
-              'sphinxcontrib.relative-link-corrector',
-              'sphinxcontrib.direct-copy',
-              'sphinx_markdown_tables', 
-              'sphinx_rtd_theme']
 
 direct_copy_directories = ['/gov/figures', 
                            '/ref_model/figures', 
@@ -28,9 +21,4 @@ direct_copy_directories = ['/gov/figures',
                            '/ven_impl/figures', 
                            '/common/figures'] 
 
-html_theme = "sphinx_rtd_theme"
-
 html_static_path = ['_static']
-html_css_files = [
-    'css/custom.css',
-]
