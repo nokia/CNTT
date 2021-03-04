@@ -1,0 +1,14 @@
+---
+project_cfg: opnfv
+project: anuket-specifications
+
+extensions:
+  - sphinxcontrib.readme-to-index
+  - sphinxcontrib.relative-link-corrector
+  - sphinxcontrib.direct-copy
+  - sphinx_markdown_tables
+
+html_css_files:
+  - 'css/custom.css'
+
+html_theme: 'opnfv'
