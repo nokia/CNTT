@@ -4,9 +4,6 @@ Overview
 Introduction
 ------------
 
-This is not to be merged, but only to trigger the build.
-Again
-And again
 The objective of this Reference Architecture (RA) is to develop a usable Kubernetes-based platform for the Telco
 industry. The RA will be based on the standard Kubernetes platform wherever possible. This Reference Architecture
 for Kubernetes will describe the high level system components and their interactions, taking the goals and requirements
