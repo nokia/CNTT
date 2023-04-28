@@ -44,7 +44,7 @@ Required component versions
 ========== ===================
 Component  Required version(s)
 ========== ===================
-Kubernetes 1.24
+Kubernetes 1.26
 ========== ===================
 
 Principles
