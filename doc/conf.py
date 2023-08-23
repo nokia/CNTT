@@ -23,13 +23,14 @@ linkcheck_ignore = [
     'https://www.ngmn.org/wp-content/uploads/Publications/2018/180226_NGMN_RANFSX_D1_V20_Final.pdf',
     'https://wiki.lfnetworking.org/'
 ]
+# Changing "latest" to "stable-nile" for now to be able to build before the fixing of the ReadTheDocs builds.
 intersphinx_mapping = {
-    'ref_model': ('https://cntt.readthedocs.io/projects/rm/en/latest/', None),
-    'ref_arch_openstack': ('https://cntt.readthedocs.io/projects/ra1/en/latest/', None),
-    'ref_arch_kubernetes': ('https://cntt.readthedocs.io/projects/ra2/en/latest/', None),
-    'ref_cert_RC2': ('https://cntt.readthedocs.io/projects/rc2/en/latest/', None),
-    'ref_impl_cntt-ri': ('https://cntt.readthedocs.io/projects/ri1/en/latest/', None),
-    'ref_impl_cntt-ri2': ('https://cntt.readthedocs.io/projects/ri2/en/latest/', None)
+    'ref_model': ('https://cntt.readthedocs.io/projects/rm/en/stable-nile/', None),
+    'ref_arch_openstack': ('https://cntt.readthedocs.io/projects/ra1/en/stable-nile/', None),
+    'ref_arch_kubernetes': ('https://cntt.readthedocs.io/projects/ra2/en/stable-nile/', None),
+    'ref_cert_RC2': ('https://cntt.readthedocs.io/projects/rc2/en/stable-nile/', None),
+    'ref_impl_cntt-ri': ('https://cntt.readthedocs.io/projects/ri1/en/stable-nile/', None),
+    'ref_impl_cntt-ri2': ('https://cntt.readthedocs.io/projects/ri2/en/stable-nile/', None)
 }
 autosectionlabel_prefix_document = True
 autosectionlabel_maxdepth = 4
